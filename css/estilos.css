@@ -213,12 +213,14 @@ body{
     flex-wrap: wrap;
     gap: 2.5em;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; 
 }
 
 .price__element{
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #e5e5f7;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
@@ -230,7 +232,10 @@ body{
 }
 
 .price__element--best{
-    width: 370px;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    width: 400px;
     padding: 60px 40px;
     background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
@@ -248,7 +253,7 @@ body{
  
 .price__price{
     font-size: 2.5rem;
-    color: var(--color-price);
+    color: #000;
 }
 
 .price__items{
@@ -325,6 +330,10 @@ body{
 .testimony_arrow{
     width: 90%;
     cursor: pointer;
+}
+
+.img__wsp{
+    width: 40px;
 }
 
 
@@ -539,6 +548,8 @@ body{
         grid-column: 1/-1;
     }
 
+
+
     .knowledge__container{
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
@@ -547,8 +558,22 @@ body{
     }
 
     .knowledge__picture{
+        align-items: center;
         grid-row: 1/2;
         justify-self: center;
+    }
+
+    .footer__img{
+        align-items: left;
+        top: 50px;
+    }
+
+
+    .testimony__review{
+        top: 20px;
+        gap: 1em;
+        text-align: left;
+        align-items: center;
     }
 
     .testimony__container{
