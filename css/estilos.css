@@ -621,9 +621,13 @@
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .hero__title{
         font-size: 2rem;
+    }
+
+    .hero::before{
+        background-size: cover;
     }
 
     .hero__paragraph{
