@@ -631,7 +631,7 @@
     }
 
     .subtitle{
-        font-size: 1.0rem;
+        font-size: 1.8rem;
     }
 
     .price__element{
@@ -694,5 +694,10 @@
         /* margin-auto: auto;
            margin-left: 0;
            */
+    }
+
+    .knowledge__paragraph{
+        text-align: left;
+        align-items: left
     }
 }
